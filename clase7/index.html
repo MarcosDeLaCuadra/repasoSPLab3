@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+  <script type="text/javascript">
+  //localstorage sessionstorage 
+        if(typeof(storage) !== "undefined"){
+            localStorage.setItem("autor","mariano");
+            var autor = localStorage.getItem("autor"); //local storage
+        }
+        else{
+            alert("no esta instalado ");
+        }
+  </script>
+</body>
+</html>
